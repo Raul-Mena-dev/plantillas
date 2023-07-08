@@ -1,0 +1,17 @@
+
+.facebook{
+    color: #1877f2;
+}
+
+.twitter{
+    color: #1da1f2;
+}
+
+.youtube{
+    color: #ff0000;
+}
+
+.img_carrusel{
+    width: 300px; /* Ancho de la imagen */
+    height: 500px; /* Altura se ajustará automáticamente según la proporción */
+  }
