@@ -14,4 +14,11 @@
 .img_carrusel{
     width: 300px; /* Ancho de la imagen */
     height: 500px; /* Altura se ajustará automáticamente según la proporción */
-  }
+}
+
+.elemento-flotante {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
