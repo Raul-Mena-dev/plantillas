@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/abdd919bbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/modoOscuro.js"></script>
+    <title>Tattoo shop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Tattoo shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html"><i class="fa-solid fa-house me-2"></i>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/album.html"><i class="fa-solid fa-camera me-2"></i>Album</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/nosotros.html"><i class="fa-solid fa-users me-2"></i>Nosotros</a>
+              </li>
+            </ul>
+            <div  class="">
+                <button class="btn mx-2" type="button" onclick="cambiarTema()"><i id="tema" class="fa-solid fa-sun me-2"></i>Modo oscuro</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container my-5">
+        <div class="bg-body-tertiary p-5 rounded">
+            <h1 class="fw-normal">Sobre nosotros</h1>
+            <p class="fs-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero elementum, vulputate justo id, tempor massa. Suspendisse placerat augue nec elit aliquet, non pharetra tortor semper. Nullam quis risus eleifend, mollis leo sed, fermentum nisi. Nullam condimentum rutrum leo, id dictum massa tincidunt a. Mauris scelerisque luctus urna. Duis id velit non ligula pharetra consequat non non erat. In pretium nunc eu lectus condimentum, vitae blandit nisi mattis. Nulla non sagittis ante. Aliquam porttitor, quam sed dignissim tincidunt, velit leo facilisis tortor, nec lacinia mi nisi a sem. Aliquam lorem felis, semper vitae semper vel, aliquam vitae ante. Vivamus id nisl eget velit aliquet bibendum vel et augue. Phasellus consectetur in nisl sit amet tincidunt. Proin libero nibh, fringilla eu rutrum sed, feugiat nec dolor.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris ullamcorper nunc vel felis rutrum, id gravida lorem consequat. Quisque luctus accumsan orci vel dignissim. Donec nec lectus sit amet nibh lobortis sodales. Vestibulum in sollicitudin mauris. Aliquam erat volutpat. Sed tempor neque tempus tortor luctus, sit amet placerat diam vulputate. Pellentesque molestie ante at nisl lobortis euismod. Sed malesuada diam vel ipsum commodo, non sagittis lorem porta.
+            </p>
+            <div class="row">
+                <div class="col-md-7">
+                  <h2 class="fw-normal lh-1">Tattoo Shop <span class="text-body-secondary">Visitanos.</span></h2>
+                  <p class="lead"><p class="fw-bold">Domicilio:</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  <p class="lead"><p class="fw-bold">Telefono:</p>xxxxxxx0</p>
+                  <p class="lead"><p class="fw-bold">Horario:</p>L a V, 9:00 a 18:00</p>
+                </div>
+                <div class="col-md-5">
+                  <img src="/img/shop.jpg" class="d-block w-100 img_carrusel" alt="...">
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <p class="">Contactame<a href="https://wa.me/13334508298" target="_blank" class="ms-2"><i class="fa-brands fa-whatsapp  fs-1 text-success"></i></a></p>
+      </div>
+      
+      
+      <div class="container">
+        <footer class="py-3 my-4 ">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://www.facebook.com/xXSMERXx" class="nav-link px-2" target="_blank"><i class="fa-brands fa-facebook facebook"></i></a></li>
+            <li class="nav-item"><a href="https://twitter.com/Darth_Ashes" class="nav-link px-2" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/" class="nav-link px-2" target="_blank"><i class="fa-brands fa-youtube youtube"></i></a></li>
+          </ul>
+            <p class="text-center text-body-secondary">2023, Raul Mena</p>
+        </footer>
+      </div>
+</body>
+</html>

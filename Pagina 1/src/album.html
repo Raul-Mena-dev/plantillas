@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/abdd919bbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/modoOscuro.js"></script>
+    <title>Tattoo shop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Tattoo shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html"><i class="fa-solid fa-house me-2"></i>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/album.html"><i class="fa-solid fa-camera me-2"></i>Album</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/nosotros.html"><i class="fa-solid fa-users me-2"></i>Nosotros</a>
+              </li>
+            </ul>
+            <div  class="">
+                <button class="btn mx-2" type="button" onclick="cambiarTema()"><i id="tema" class="fa-solid fa-sun me-2"></i>Modo oscuro</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto border-bottom">
+                  <h1 class="fw-light">Nuestros trabajos</h1>
+                  <p class="lead text-body-secondary">Dale un vistazo a nuestros trabajos previos y convencete de visitarnos para tener la mejor experiencia al momento de realizarte tu tattoo.</p>
+                </div>
+              </div>
+        </section>
+        <div class="py-5 bg-body-tertiary">
+            <div class="container">
+                <div class=" row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col ">
+                        <div class="card shadow-sm h-100" >
+                            <img class="img-thumbnail " src="/img/tattoo1.jpg" alt="">
+                            <div class="card-body">
+                              <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero elementum, vulputate justo id, tempor massa. Suspendisse placerat augue nec elit aliquet, non pharetra tortor sempe.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100" >
+                            <img class="img-thumbnail " src="/img/tattoo2.jpg" alt="">
+                            <div class="card-body">
+                              <p class="card-text">Nullam quis risus eleifend, mollis leo sed, fermentum nisi. Nullam condimentum rutrum leo, id dictum massa tincidunt a. Mauris scelerisque luctus urna. Duis id velit non ligula pharetra consequat non non erat. In pretium nunc eu lectus condimentum, vitae blandit nisi mattis. Nulla non sagittis ante. Aliquam porttitor.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100" >
+                            <img class="img-thumbnail " src="/img/tattoo3.jpg" alt="">
+                            <div class="card-body">
+                              <p class="card-text">quam sed dignissim tincidunt, velit leo facilisis tortor, nec lacinia mi nisi a sem. Aliquam lorem felis, semper vitae semper vel, aliquam vitae ante.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100" >
+                            <img class="img-thumbnail " src="/img/tattoo4.jpg" alt="">
+                            <div class="card-body">
+                              <p class="card-text">Vivamus id nisl eget velit aliquet bibendum vel et augue. Phasellus consectetur in nisl sit amet tincidunt. Proin libero nibh, fringilla eu rutrum sed, feugiat nec dolor.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100" >
+                            <img class="img-thumbnail " src="/img/tattoo5.jpg" alt="">
+                            <div class="card-body">
+                              <p class="card-text">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris ullamcorper nunc vel felis rutrum, id gravida lorem consequat. Quisque luctus accumsan orci vel dignissim.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm h-100" >
+                            <img class="img-thumbnail " src="/img/tattoo6.jpg" alt="">
+                            <div class="card-body">
+                              <p class="card-text">Donec nec lectus sit amet nibh lobortis sodales. Vestibulum in sollicitudin mauris. Aliquam erat volutpat.</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+ 
+
+ 
+      <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <p class="">Contactame<a href="https://wa.me/13334508298" target="_blank" class="ms-2"><i class="fa-brands fa-whatsapp  fs-1 text-success"></i></a></p>
+      </div>
+      
+      
+      <div class="container">
+        <footer class="py-3 my-4 ">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://www.facebook.com/xXSMERXx" class="nav-link px-2" target="_blank"><i class="fa-brands fa-facebook facebook"></i></a></li>
+            <li class="nav-item"><a href="https://twitter.com/Darth_Ashes" class="nav-link px-2" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/" class="nav-link px-2" target="_blank"><i class="fa-brands fa-youtube youtube"></i></a></li>
+          </ul>
+            <p class="text-center text-body-secondary">2023, Raul Mena</p>
+        </footer>
+      </div>
+</body>
+</html>
