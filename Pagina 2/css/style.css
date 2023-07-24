@@ -1,0 +1,4 @@
+.img_carrusel{
+    width: 100%; /* Ancho de la imagen */
+    height: 800px; /* Altura se ajustará automáticamente según la proporción */
+}
